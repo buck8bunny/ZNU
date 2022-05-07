@@ -1,0 +1,38 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "A playground for the react-elastic-carousel package. \nhttps://sag1v.github.io/react-elastic-carousel/",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-is": "^18.1.0",
+    "react-scripts": "^2.1.3",
+    "styled-components": "5.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}

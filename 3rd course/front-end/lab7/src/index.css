@@ -1,0 +1,50 @@
+body{
+  background-position: center;
+  background: linear-gradient(#006363, #5CCCCC);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.carousel-wrapper {
+  width: 60%;
+}
+
+.rec-arrow {
+  background-color: #006363 !important;
+  color: #5CCCCC !important;
+}
+.rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2) !important;
+  background: #5CCCCC !important;
+  color: #006363 !important;
+}
+
+.rec-dot_active {
+  background-color: #006363 !important;
+  box-shadow: 0 0 1px 3px var(--blue) !important;
+}
+.rec-dot:focus,
+.rec-dot:hover {
+  background-color: #006363 !important;
+  box-shadow: 0 0 1px 3px var(--blue) !important;
+}
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+  background-color: #006363 !important;
+  box-shadow: 0 0 1px 3px var(--blue) !important;
+}
+
+.rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2);
+  background: #5CCCCC !important;
+  color: #006363 !important;
+}
